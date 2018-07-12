@@ -33,14 +33,14 @@ body {
 
 .header a.logo {
   background-image: url("Images/IMG_4591.jpg");
-  background-size: 50%;
+  background-size: 100%;
   background-repeat: no-repeat, repeat;
 }
-
+/*
 .logo {
     background-color: red;
-
 }
+*/
 
 .header a:hover {
   background-color: #ddd;

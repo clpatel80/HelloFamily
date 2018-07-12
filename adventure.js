@@ -1,4 +1,4 @@
-/*<script>
+git <script>
 
 function ValidateEmail(inputText)
 {
@@ -16,17 +16,10 @@ return false;
 }
 }
 
-</script>*/
+</script>
 
-function check_email(email){  
-    var reg = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,7})+$/;
-    if(reg.test(email)){
-        return true;
-    }else{  
-        return false;
-    }  
-}  
 
+/* 
 function validateEmail(email) {
     // First check if any value was actually set
     if (email.length == 0) return false;
@@ -38,3 +31,5 @@ function validateEmail(email) {
 var email = document.getElementById('email');
 if (validateEmail(email)) { alert('Valid email address'); }
 else { aler('Invalid email address'); }
+
+*/
