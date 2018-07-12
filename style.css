@@ -1,4 +1,4 @@
-<style>
+
 
 {box-sizing: border-box;}
 
@@ -69,12 +69,12 @@ h1 {
 
 /* Create three equal columns that floats next to each other */
 .column {
-    /* float: left;
-    position: static; */
+    float: left;
+    position: static;
     padding: 10px;
     height: 200px;
-    /* column-fill: auto;
-    column-span: all; */
+    column-fill: auto;
+    column-span: all;
     flex-basis: auto;
     flex-grow: 1;
 }
@@ -97,7 +97,6 @@ h1 {
     color: rgb(12, 12, 12);
 }
 #columnc {
-    background-image: url("Images/IMG_.jpg");
     background-color:#bbb;
     opacity: 0.9;
     filter: alpha(opacity=50);
@@ -130,12 +129,14 @@ h1 {
       display: flex;
     }
 
-    .row {
+    /*.row {
         display: flex;
         flex-direction: column;
         align-content: stretch;
         width: 100%;
-    }
+        flex-basis: auto;
+        flex-grow: 1;
+    }*/
 
     .column {
         max-width: 100%;
@@ -152,7 +153,3 @@ h1 {
     content: "";
     clear: both;
     display: table;
-}
-
-
-</style>
