@@ -1,32 +1,22 @@
-function ValidateEmail(inputText)
+$(document).ready(function()
 {
-var mailformat = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,7})+$/;
-    if(inputText.value.match(mailformat))
+    $(document).on('click', '#btnSubmit', function(e)
     {
-    alert("Thank you for your email address!");
-    document.form1.text1.focus();
-    return true;
-    }
-    else
-    {
-    alert("You have entered an invalid email address!");
-    document.form1.text1.focus();
-    return false;
-    }
-}
+        e.preventDefault();
+        var target = $(this),
+            email = $('#email'), name = $('#name');
+        if ($.trim(email.val()) === "")
+        {
+            alert('Try Again! Invalid Email');
+            return;
+        }
+        if ($.trim(name.val()) === "")
+        {
+            alert('Try Again! Invalid Name');
+            return;
+        }
+        alert('Thanks!');
 
 
-/* Trial code Options for Email.
-function validateEmail(email) {
-    // First check if any value was actually set
-    if (email.length == 0) return false;
-    // Now validate the email format using Regex
-    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/i;
-    return re.test(email);
-}
-
-var email = document.getElementById('email');
-if (validateEmail(email)) { alert('Valid email address'); }
-else { aler('Invalid email address'); }
-
-*/
+    })
+});	
