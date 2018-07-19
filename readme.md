@@ -1,5 +1,8 @@
 # HelloFamily
-This is going to be a Paterpur Info Page.
-Reason for the project is 20 years of discussion and now I have the opportunity to make an interactive version.
-The site will feature information about the Tranol Patel family's history, life, family tree, adventure, pics, and events.
+This is going to be a Southeast Asia Info Page.
+The site will feature information about my travels, adventure, and pics, annd it will be updated 
+as time permits and as I coutinue with CodeLouisville classes.
+
+You can just go to Github at the following link https://github.com/clpatel80/HelloFamily and just run index.html.
+
 
