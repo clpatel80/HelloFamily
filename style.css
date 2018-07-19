@@ -1,5 +1,3 @@
-
-
 * 
 {
     box-sizing: border-box;
@@ -121,7 +119,7 @@ h1 {
 }
 
 
-/* Media Styles for Page */
+/* Media Styles for Page using CSS and Flexbox */
 @media screen and (max-width: 768px) {
     .header a {
       float: none;
@@ -163,3 +161,4 @@ h1 {
     content: "";
     clear: both;
     display: table;
+  }

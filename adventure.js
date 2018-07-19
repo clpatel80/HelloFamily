@@ -1,3 +1,6 @@
+/* This is Jquery for the Name and Email of the 3rd Column. You can enter name or email and get a response or not Enter anything and 
+    hit the Submit button and get a response. */
+    
 $(document).ready(function()
 {
     $(document).on('click', '#btnSubmit', function(e)
