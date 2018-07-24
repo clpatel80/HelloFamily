@@ -73,7 +73,7 @@ body {
     margin-bottom: 75px;
 }
 
-/* Create three equal columns that floats next to each other */
+/* Create three equal columns that floats next to each other and Flexbox */
 .column {
     float: left;
     position: static;
@@ -156,7 +156,6 @@ body {
         flex-direction: row; */
     }
   }
-
 
 /* ClearFix for Page */
   .clearfix:before,
